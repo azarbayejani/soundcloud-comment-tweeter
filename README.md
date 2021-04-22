@@ -1,11 +1,11 @@
 ```
-usage: tweet.py [-h] --twitter_consumer_key TWITTER_CONSUMER_KEY --twitter_consumer_secret
-                TWITTER_CONSUMER_SECRET --twitter_access_key TWITTER_ACCESS_KEY
-                --twitter_access_secret TWITTER_ACCESS_SECRET --soundcloud_client_id
-                SOUNDCLOUD_CLIENT_ID
-                id
+usage: tweet_soundcloud_comment.py [-h] --twitter_consumer_key TWITTER_CONSUMER_KEY
+                                   --twitter_consumer_secret TWITTER_CONSUMER_SECRET
+                                   --twitter_access_key TWITTER_ACCESS_KEY --twitter_access_secret
+                                   TWITTER_ACCESS_SECRET --soundcloud_client_id SOUNDCLOUD_CLIENT_ID
+                                   id
 
-Tweets the latest soundcloud comment from Soundcloud User
+Tweets the latest Soundcloud comment from Soundcloud user ID
 
 positional arguments:
   id                    A Soundcloud user's ID

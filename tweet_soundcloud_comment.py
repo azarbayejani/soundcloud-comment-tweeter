@@ -4,7 +4,7 @@ import os
 import tweepy
 import urllib.request, json
 
-parser = configargparse.ArgParser(description="Tweets the latest soundcloud comment from Soundcloud User")
+parser = configargparse.ArgParser(description="Tweets the latest Soundcloud comment from Soundcloud user ID")
 parser.add('--twitter_consumer_key', help="Your Twitter app's consumer key", env_var='TWITTER_CONSUMER_KEY', required=True)
 parser.add('--twitter_consumer_secret', help="Your Twitter app's consumer secret", env_var='TWITTER_CONSUMER_SECRET', required=True)
 parser.add('--twitter_access_key', help="Your Twitter app's access key", env_var='TWITTER_ACCESS_KEY', required=True)
